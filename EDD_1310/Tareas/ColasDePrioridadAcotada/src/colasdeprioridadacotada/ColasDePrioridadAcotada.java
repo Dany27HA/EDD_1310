@@ -15,7 +15,8 @@ public class ColasDePrioridadAcotada {
      */
     public static void main(String[] args) throws Exception {
         ColaPrioridad<String> queue = new ColaPrioridad<String>(6);
-             
+        
+        //Queria hacer este ejemplo en vez del del titanic XD     
         System.out.println("Orden en que murieron los animales en la pelicula la vida de pi");
         queue.enqueue(1, "Hiena");
         queue.enqueue(5, "Pi se salvó");
